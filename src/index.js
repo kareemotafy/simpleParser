@@ -1,4 +1,3 @@
-//rule 1 space for the tags
 
 HTML = `<h1> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet 
 pretium nisl. Fusce consectetur vel mi vitae facilisis. 
@@ -43,6 +42,5 @@ const parseHTML = (HTML) => {
   return pipeline;
 };
 
-//"node src/index" to run
 
 console.log(parseHTML(HTML));
